@@ -6,7 +6,7 @@
     width: 90%;
     height: 15vh;
     justify-content: space-between;
-   font-family: lastica;
+   
     font-family: 'lasticaregular';
     src: url('fontsfree-net-lastica-webfont.woff2') format('woff2'),
          url('fontsfree-net-lastica-webfont.woff') format('woff');
