@@ -1,0 +1,140 @@
+
+.slider {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    overflow: hidden;
+    
+  }
+  
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: translateX(-50%);
+   
+    transition: all 1.5s ease;
+  }
+  @media screen and (max-width:600px){
+    .content{
+      font-family: lastica;
+    color: #545454;
+    letter-spacing: 3px;
+    font-size: 20px;
+    }
+    
+  }
+  
+  
+  @media screen and (min-width: 600px) {
+    .slide img {
+      width: 100%;
+      height: 100vh;
+      
+    }
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 120%;
+  }
+  
+  .current {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .content {
+    position: absolute;
+    text-align: center;
+    top: 13rem;
+    left: 3rem;
+    opacity: 0;
+    width: 50%;
+    color: #fff;
+    padding: 3rem;
+    text-shadow: "1px 1px 2px black, 0 0 10px gray, 0 0 1px gray";
+    
+    animation: slide-up 4s ease 0.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    
+  }
+
+  .content h2{
+    font-family: lastica;
+    color: #545454;
+    letter-spacing: 3px;
+    font-size: 70px;
+  }
+  
+  @keyframes slide-up {
+    0% {
+      visibility: visible;
+      top: 20rem;
+    }
+    100% {
+      visibility: visible;
+      top: 15rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .content {
+      width: 80%;
+    }
+    .content h2{
+      font-size: 20px;
+    }
+    .image{
+     display: none;
+      
+    }
+  }
+  
+  .content > * {
+    color: #fff;
+    margin-bottom: 1rem;
+    
+  }
+  
+  .current .content {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 0.5s ease;
+  }
+  
+  .content{
+    left: 0%;
+  }
+  
+  .arrow {
+    border: 1px solid white;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 999;
+  }
+  .arrow:hover {
+    background-color: #fff;
+    color: #777;
+  }
+  
+  .next {
+    top: 45%;
+    right: 1.5rem;
+  }
+  .prev {
+    top: 45%;
+    left: 1.5rem;
+  }
+  
+  

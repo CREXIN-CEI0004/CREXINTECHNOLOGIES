@@ -1,0 +1,669 @@
+.app{
+    margin: auto;
+}
+
+
+
+.menupage
+{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/backround.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: lastica;
+    letter-spacing: 2px;
+    
+}
+
+.navtop{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    margin: auto;
+
+}
+
+
+
+.navtop img{
+    height: 20px;
+    width: 20px;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    
+    width: 90%;
+    height: 70vh;
+    margin: auto;
+    font-size: 25px;
+    
+    
+
+
+}
+@media screen and (max-width:600px){
+    .navtop{
+        flex-direction: column;
+    }
+    .options{
+   flex-direction: column;
+   font-size: 10px;
+   align-items: center;
+
+
+    }
+    .bottom{
+        padding-top: 0%;
+        width: 100%;
+        height: 100px;
+    }
+    .top{
+        padding-top: 0%;
+        width: 100%;
+        height: 100px;
+    }
+    .linesblue{
+        display: none;
+    }
+
+
+    
+}
+
+
+
+.bottom{
+  
+   width: 25%;
+   
+    text-align: center;
+   
+}
+
+.bottom:hover{
+    color: #dca101;
+    
+    text-shadow: "1px 1px 2px black, 0 0 10px gray, 0 0 1px gray";
+}
+
+.top{
+    width: 25%;
+    
+   
+    text-align: center;
+}
+.top:hover{
+    color: #dca101;
+    
+    text-shadow: "1px 1px 2px black, 0 0 10px gray, 0 0 1px gray";
+
+}
+
+.coloredcontainer{
+    
+    height: 100vh;
+}
+
+.service{
+    height: 70vh;
+    width: 90%;
+    
+   
+    margin-left: 5%;
+    font-family: lastica;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 15vh;
+}
+
+.service h1{
+    font-weight: 20px;
+    font-size: 20px;
+    
+}
+.enqmenu{
+    color:"#414a4c"
+}
+.enqmenu:hover{
+    
+    color:#dca101 ;
+}
+
+.servicesdiv{
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    
+    display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+.sdiv:hover{
+    box-shadow: 0px 0px 49px 5px rgba(17, 17, 26, 0.18);
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px){
+.service{
+    padding-top: 15vh;
+    letter-spacing: 2px;
+}
+.servicesdiv{
+    grid-template-columns: auto;
+    align-items: center;
+    margin: auto;
+}
+
+.sdiv .sd1{
+    width: 100%;
+    text-align: center;
+}
+.sdiv .sd2{
+    width: 100%;
+    text-align: center;
+}
+.sd2 h3{
+    font-size: 4;
+
+}
+.coloredcontainer{
+    height: 200vh;
+}
+}
+
+
+.sdiv{
+    display: flex;
+}
+
+.sdiv .sd1{
+    height: 70%;
+    width: 20%;
+    
+}
+
+.sd1 img{
+    height: 100%;
+    width: 100%;
+}
+
+.sdiv .sd2{
+
+    height: 95%;
+    width: 70%;
+    text-align: left;
+   
+    font-family: 'Cinzel', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Teko', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+.sd2 h3{
+    font-family: lastica;
+}
+
+
+.about{
+    height: 100vh;
+    width: 100%;
+    background-color: #414a4c;
+    padding-top: 25vh;
+}
+
+.abt{
+    text-align: center;
+    color: white;
+    font-family: Montserrat;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    height: 100vh;
+}
+
+.abt h1{
+color: #339ebb;
+    font-family: lastica;
+}
+
+
+.abtus{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/aboutus.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.abtus div{
+    height: 80%;
+    width: 20%;
+    background: transparent;
+    font-family: Montserrat;
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+
+.abth41{
+    padding-top: 38%;
+}
+.abth42{
+    padding-top: 80%;
+}
+
+
+.aabth2{
+    padding-top: 70vh;
+}
+
+@media screen and (max-width:600px) {
+    .abth41{
+        padding-top:0px;
+    }
+
+    .aabth2{
+        padding-top: 10vh;
+    }
+    .abth42{
+        padding-top: 30%;
+    }
+    .abtus{
+        height: 50vh;
+    }
+    
+}
+
+.port{
+    margin-top: 15vh;
+    font-family: lastica;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.portdivs{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    width: 90%;
+    align-items: center;
+    margin: auto;
+
+}
+
+.portcont{
+    background-color:#f1f0ee;
+    height: 85vh;
+    padding-top: 15vh;
+    
+}
+.exm{
+    height: 100%;
+    width: 25%;
+    align-items: center;
+}
+.exm img{
+    height: 80%;
+    width: 100%;
+}
+.exm:hover{
+    box-shadow: 0px 0px 49px 5px rgba(17, 17, 26, 0.18);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:600px) {
+    .portcont{
+        height: 200vh;
+        background-color:#f1f0ee ;
+    }
+    .portdivs{
+        flex-direction: column;
+    }
+    .exm{
+        height: 100%;
+        width: 90%;
+    }
+    
+    
+}
+
+
+
+
+.contact{
+    height: 80vh;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.contact div{
+    height: 100%;
+    width: 20%;
+    
+}
+
+.mapdiv{
+
+    border-radius: 50%;
+    
+    text-align: center;
+    margin: auto;
+    padding-left: 20px;
+    
+}
+iframe{
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.continfo{
+    font-family: lastica;
+    letter-spacing: 3px;
+    color: #339ebb;
+    align-items: center;
+    text-align: left;
+    padding-left: 5%;
+}
+
+.continfo h3{
+    color: #339ebb;
+    font-size: 14px;
+}
+
+.continfo p{
+    color: #be8f0e;
+    font-size: 10px;
+}
+
+
+.continfo2{
+
+    font-family: lastica;
+    letter-spacing: 3px;
+    color: #339ebb;
+    align-items: center;
+    text-align: left;
+    padding-left: 9%;
+    height: 50%;
+
+}
+
+
+.continfo2 h3{
+    color: #339ebb;
+    font-size: 14px;
+}
+
+.continfo2 p{
+    color: #be8f0e;
+    font-size: 10px;
+}
+.csocialicons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    
+    width: 300px;
+}
+.csocialicons img{
+    height: 30px;
+    width: 30px;
+}
+.enqbox{
+    background-color:#414a4c ;
+    padding-top: 10vh;
+    height: 90vh;
+}
+
+.lines{
+    
+   
+    border-radius: 5px;
+    background-color:#be8f0e;
+}
+.whrs{
+    padding-top: 35%;
+}
+.soco{
+    padding-top: 80%;
+}
+
+
+@media screen and (max-width:600px){
+    .enqbox{
+        height: 120vh;
+    }
+    .contact{
+        flex-direction: column;
+        padding-top: 20vh;
+    }
+    .continfo{
+        text-align: center;
+    }
+    .continfo2{
+        text-align: center;
+    }
+    .contact div{
+        width: 90%;
+        height: 20%;
+    }
+    .mapdiv{
+        width: 30%;
+        height: 100%;
+    }
+
+    .continfo h1{
+        font-size: 20px;
+    }
+    .csocialicons{
+        margin: auto;
+    }
+    .whrs{
+        padding-top: 10%;
+    }
+    .soco{
+        padding: 0%;
+    }
+    .rights{
+        display: none;
+    }
+
+    
+}
+
+
+
+
+.enquiry{
+    background-color:  #414a4c;
+    height: 100vh;
+    text-align: center;
+    font-family: lastica;
+    margin: auto;
+
+}
+
+.enquiry h1{
+    color: #339999;
+    letter-spacing: 3px;
+    font-size: 20px;
+    padding-top: 15vh;
+}
+
+.cross{
+    height: 5vh;
+    width: 2%;
+   float: right;
+    
+    
+}
+
+.cross img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.container{
+    margin: auto;
+    width: 10%;
+    padding-top: 2%;
+    width: 30%;
+    
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    
+    text-align: center;
+}
+.contact-form{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+
+.contact-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 400px;
+}
+.contact-inputs .submitbut{
+   align-items: center;
+   margin: auto;
+}
+
+.custom-field {
+    width: 100px;
+    position: relative;
+    font-size: 14px;
+    border-top: 0px solid transparent;
+    margin-bottom: 5px;
+    --field-padding: 12px;
+  }
+  .custom-field input {
+    border: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #f2f2f2;
+    padding: var(--field-padding);
+    border-radius: 3px;
+    width: 400px;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  .custom-field .placeholder {
+    font-family: lastica;
+    letter-spacing: 3px;
+    position: absolute;
+    left: var(--field-padding);
+    width: calc(100% - (var(--field-padding) * 2));
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    top: 22px;
+    line-height: 100%;
+    transform: translateY(-50%);
+    color: #339999;
+    font-weight: bold;
+    transition: 
+      top 0.3s ease,
+      color 0.3s ease,
+      font-size 0.3s ease;
+  }
+  
+
+.custom-field.two input {
+    border-radius: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background:
+      linear-gradient(90deg, #dca101, #dca101) center bottom/0 0.15em no-repeat,
+      linear-gradient(90deg,#dca101 , #dca101) left bottom/100% 0.15em no-repeat,
+      linear-gradient(90deg, #414a4c, #414a4c) left bottom/100% no-repeat;
+    transition: background-size 0.3s ease;
+  }
+  
+  .custom-field.two input.dirty,
+  .custom-field.two input:not(:placeholder-shown),
+  .custom-field.two input:focus {
+    background-size: 100% 0.15em, 100% 0.1em, 100%;
+  }
+  .custom-field input.dirty + .placeholder,
+  .custom-field input:focus + .placeholder,
+  .custom-field input:not(:placeholder-shown) + .placeholder {
+    top: -10px;
+    font-size: 10px;
+    color: #dca101;
+  }
+  
+  .custom-field .error-message {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    font-size: 12px;
+    background: #d30909;
+    color: #fff;
+    height: 24px;
+  }
+  
+  .custom-field .error-message:empty {
+    opacity: 0;
+  }
+  
+.submitbut{
+    width: 100px;
+    height: 70px;
+    margin-left: 50%;
+}
+
+
+
+.submitbut{
+    background-color: transparent;
+    font-family: lastica;
+    height: 50px;
+    border: none;
+    color:#339ebb;
+    border-top:2px solid #dca101;
+    border-bottom:2px solid #dca101;
+    margin: auto;
+    letter-spacing: 3px;
+    
+
+}
+
+.submitbut:hover{
+    color: #dca101;
+    cursor: pointer;
+    border-top:2px solid #339ebb;
+    border-bottom:2px solid #339ebb;
+}
