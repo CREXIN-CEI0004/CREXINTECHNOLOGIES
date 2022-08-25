@@ -24,7 +24,7 @@ export const About = () => {
     </div>
 
 
-    <div className='abtus'>
+    <div className='abtus' style={{backgroundImage:"url(images/aboutus.png)"}}>
     <div className='abtus1'>
     <h4 className='abth41'>Deploy</h4>
     <h4 className='abth42'>Test</h4>
