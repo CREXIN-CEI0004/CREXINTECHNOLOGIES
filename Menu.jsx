@@ -14,7 +14,7 @@ import { NavLink } from 'react-router-dom'
 
 const Menu = () => {
   return (
-    <div className='menupage' style={{backgroundColor:"#13708a"}} >
+    <div className='menupage' style={{backgroundImage:"url(images/backround.png)"}} >
 
 
 
